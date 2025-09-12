@@ -1,0 +1,19 @@
+# Build
+bin/
+obj/
+out/
+
+# User-specific files
+.vs/
+*.user
+*.suo
+
+# Packages
+*.nupkg
+*.snupkg
+
+# Logs
+*.log
+
+# Env
+.env
