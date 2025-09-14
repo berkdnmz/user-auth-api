@@ -116,7 +116,7 @@ app.UseHttpsRedirection();
 
 app.UseSerilogRequestLogging();
 app.UseMiddleware<RequestLoggingMiddleware>();
-
+app.UseStaticFiles();
 app.UseAuthentication();
 app.UseAuthorization();
 app.UseMiddleware<GlobalExceptionHandlerMiddleware>();
