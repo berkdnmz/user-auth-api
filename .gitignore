@@ -13,7 +13,11 @@ out/
 *.snupkg
 
 # Logs
+logs/
 *.log
 
 # Env
 .env
+
+# App settings (secret configs)
+appsettings.json
